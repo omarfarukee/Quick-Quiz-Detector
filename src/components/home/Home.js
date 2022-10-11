@@ -9,6 +9,8 @@ const Home = () => {
     return (
         <div>
             <div className='home-back text-center pt-10'>
+                {/* hiii */}
+        
                 <h1 className='text-2xl items-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero dolorem eos beatae officia nemo rerum ratione exercitationem qui dignissimos aut.</h1>
             </div>
             <div className='md:flex p-16'>
