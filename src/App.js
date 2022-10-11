@@ -19,9 +19,7 @@ function App() {
         loader : () => fetch('https://openapi.programming-hero.com/api/quiz'),
         element:<Home></Home>
     },
-      {path:'/statistic',
-        loader : () => fetch('https://openapi.programming-hero.com/api/quiz')
-      , element :<Statistic></Statistic>},
+      {path:'/statistic',element:<Statistic></Statistic>},
       {path:'/blog',element:<Blog></Blog>},
       {
         path:'/:id',
@@ -31,7 +29,7 @@ function App() {
       {path:'',}
       
     ]},
-    {path:'about' , element: <h1 className='md:text-5xl text-center mt-9'>The page is not found 404 <Link className='border-b' to='/home'>check this</Link></h1>}
+    {path:'*' , element: <h1 className='md:text-5xl text-center mt-9'>The page is not found 404 <Link className='border-b' to='/home'>check this</Link></h1>}
   ])
   return (
     <div className="">
