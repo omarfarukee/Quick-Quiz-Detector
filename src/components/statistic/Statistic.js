@@ -8,8 +8,10 @@ const Statistic = () => {
         {id:4,name:"Git",total:11}
     ]
     return (
-        <div>
-            <LineChart width={500} height={300} data={information}>
+    <div>
+        <h1 className='text-3xl text-center mb-5'>The Quick Quiz Chart</h1>
+        <div className='flex justify-center'>
+            <LineChart width={430} height={300} data={information}>
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip />
@@ -19,6 +21,8 @@ const Statistic = () => {
             <Line type="monotone" dataKey="total" stroke="#82ca9d" />
             </LineChart>
         </div>
+
+    </div>
     );
 };
 

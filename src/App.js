@@ -29,7 +29,7 @@ function App() {
       {path:'',}
       
     ]},
-    {path:'*' , element: <h1 className='md:text-5xl text-center mt-9'>The page is not found 404 <Link className='border-b' to='/home'>check this</Link></h1>}
+    {path:'/about' , element: <h1 className='md:text-5xl text-center mt-9'>The page is not found 404 <Link className='border-b' to='/home'>check this</Link></h1>}
   ])
   return (
     <div className="">
