@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/home/Home';
 import Main from './layout/Main';
 import {Link} from 'react-router-dom'
+import Quiz from './components/Quiz/Quiz';
 
 
 function App() {
@@ -17,6 +18,11 @@ function App() {
     },
       {path:'/statistic',},
       {path:'/blog', },
+      {
+        path:'/:id',
+        loader: ({params}) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`),
+        element:<Quiz></Quiz>
+      },
       {path:'',}
       
     ]},
