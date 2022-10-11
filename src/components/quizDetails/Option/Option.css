@@ -1,3 +1,10 @@
 .option{
-    border: 1px solid red;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color:white;
+    box-shadow: 10px 11px 10px gray;
+}
+.quiz{
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
