@@ -5,7 +5,7 @@ import logoTow from '../../images/309994671_6115944191768651_2654385123934163118
 import ('./Header.css')
 const Header = () => {
     return (
-        <div className='md:flex items-center md:justify-between b-color'>
+        <div className='md:flex items-center md:justify-between shadow-2xl b-color'>
             <div className='flex md:ml-28 items-center'>
                 <img className='md:w-44 md:h-20 logo' src={logoOne} alt="" />
                 <img className='w-16 h-14 logo' src={logoTow} alt="" />
