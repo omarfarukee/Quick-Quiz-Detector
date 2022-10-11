@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom'
 import Quiz from './components/Quiz/Quiz';
 import Home from './components/home/Home';
 import Blog from './components/Blog/Blog';
+import Statistic from './components/statistic/Statistic';
 
 
 
@@ -18,7 +19,9 @@ function App() {
         loader : () => fetch('https://openapi.programming-hero.com/api/quiz'),
         element:<Home></Home>
     },
-      {path:'/statistic',},
+      {path:'/statistic',
+        loader : () => fetch('https://openapi.programming-hero.com/api/quiz')
+      , element :<Statistic></Statistic>},
       {path:'/blog',element:<Blog></Blog>},
       {
         path:'/:id',
