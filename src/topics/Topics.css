@@ -10,10 +10,13 @@
 }
 .btn{
     width: 80%;
-    background-color:indianred;
+    background-color:rgb(114, 8, 132);
     border-bottom-left-radius: 20px;
     border-top-right-radius:20px ;
     color:white;
     font-size: 20px;
     font-weight: 700;
+}
+.btn:hover{
+    background-color: rgb(55, 2, 65);
 }

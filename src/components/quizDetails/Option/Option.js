@@ -17,7 +17,7 @@ const Option = ({option, correctAnswer}) => {
                 return 'Yea!!!your ans is correct'
             }
             else{
-                return 'Oops!!!Your ans is not correct'
+                return 'Oops!!!Your ans is in-correct'
             }
         }
     return (

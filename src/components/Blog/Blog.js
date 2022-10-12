@@ -3,7 +3,7 @@ import ('./Blog.css')
 const Blog = () => {
     return (
         <div >
-            <div className='ans text-2xl mt-4 font-bold'>
+            <div className='ans text-2xl text-white mt-4 font-bold'>
                 <h1>Few Regular Asking Qus-Ans</h1>
             </div>
         <div >

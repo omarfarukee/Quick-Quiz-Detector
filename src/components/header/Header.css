@@ -15,3 +15,22 @@
     border-top-right-radius:20px ;
     color: wheat;
 }
+@media only screen  and (max-width: 687px){
+
+    
+.b-color{
+   height:110px;
+}
+.logo{
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+    margin-bottom:3%;
+}
+.link-link{
+   border-top: 2px solid black;
+   font-size:18px;
+   margin-left:24px;
+}
+
+}
