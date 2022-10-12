@@ -4,12 +4,12 @@ const Statistic = () => {
     const information = [
         {id:1,name:"React",totalQuiz:8},
         {id:2,name:"JavaScript",totalQuiz:9},
-        {id: 3,name:"CSS",totalQuiz:8},
-        {id:4,name:"Git",totalQuiz:11}
+        {id: 4,name:"CSS",totalQuiz:8},
+        {id:5,name:"Git",totalQuiz:11}
     ]
     return (
     <div>
-        <h1 className='text-3xl text-center mb-36'>The Quick Quiz Chart</h1>
+        <h1 className='text-3xl text-center mt-7 text-white font-bold mb-28'>The Quick Quiz Chart</h1>
         <div className='flex justify-center mr-11'>
             <LineChart width={390} height={300} data={information}>
             <XAxis dataKey="name" />

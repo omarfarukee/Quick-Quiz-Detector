@@ -2,7 +2,16 @@
 .b-color{
     margin-top:2%;
     background-image: linear-gradient(#E1A2B8, #9F2BC1);
+    padding:1%;
 }
 .link:hover{
-    color:brown;
+    color:white;
+}
+.quick{
+    background-color: #3b346f;
+    align-items: center;
+    padding:3px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:20px ;
+    color: wheat;
 }

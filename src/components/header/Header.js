@@ -7,8 +7,7 @@ const Header = () => {
     return (
         <div className='md:flex items-center md:justify-between shadow-2xl b-color'>
             <div className='flex md:ml-28 items-center'>
-                <img className='md:w-44 md:h-20 logo' src={logoOne} alt="" />
-                <img className='w-16 h-14 logo' src={logoTow} alt="" />
+                <h1 className='text-4xl font-bold'><span className='quick'>Quick-Quiz</span> Detector</h1>
             </div>
             <nav className='mr-20 text-2xl'>
                 <Link className='ml-6 font-bold link ' to='/home'>Home</Link>

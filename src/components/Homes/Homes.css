@@ -3,4 +3,8 @@
     background-size:cover;
     height:400px;
     align-items: center;
+    width:90%;
+    margin:0 auto;
+    margin-top:3%;
+    border-radius:15px;
 }

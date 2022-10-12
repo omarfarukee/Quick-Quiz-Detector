@@ -14,10 +14,10 @@ const Option = ({option, correctAnswer}) => {
         });
         const result= () =>{
             if(option === correctAnswer){
-                return 'your ans is correct'
+                return 'Yea!!!your ans is correct'
             }
             else{
-                return 'your ans is not correct'
+                return 'Oops!!!Your ans is not correct'
             }
         }
     return (

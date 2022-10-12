@@ -8,7 +8,7 @@ const Quiz = () => {
     console.log(quick)
     return (
         <div>
-            <div className='md:grid md:grid-cols-2'>
+            <div className='md:grid md:grid-cols-2 mt-7'>
           {
                 quick.map(quiz => <QuizDetail 
                 key={quiz.id}
