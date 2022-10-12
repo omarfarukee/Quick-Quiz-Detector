@@ -21,6 +21,7 @@ const QuizDetail = ({quiz}) => {
         }
     return (
         <div className='quiz  m-4 '>
+        
             <div className='p-4 flex justify-between '>
                 <h1 className='font-bold'>Qus- {question}</h1>
                         <ToastContainer position="top-center"

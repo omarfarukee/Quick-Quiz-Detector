@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const About = () => {
     return (
-        <div>
-            <h1 className='md:text-5xl text-center mt-9 text-white'>The page is not found 404 <Link className='border-b' to='/home'>check this</Link></h1>
+        <div className='mt-9'>
+            <h1 className='text-center'><span  className='font-extrabold text-black md:text-9xl'>404</span></h1>
+            <h1 className='md:text-5xl text-center text-white'>The page is not found <Link className='border-b' to='/home'>check this</Link></h1>
         </div>
     );
 };

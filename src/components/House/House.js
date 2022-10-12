@@ -6,7 +6,6 @@ import ('./House.css')
 const House = () => {
     const heyTopic = useLoaderData()
     const topics = heyTopic.data
-    console.log(Topics)
     return (
         <div>
         <div className='home-back text-center pt-10 mt-7'>

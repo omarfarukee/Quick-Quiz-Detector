@@ -8,11 +8,6 @@ import Statistic from './components/statistic/Statistic';
 import House from './components/House/House';
 import About from './components/About/About';
 
-
-
-
-
-
 function App() {
   const router = createBrowserRouter([
     {path:'/',

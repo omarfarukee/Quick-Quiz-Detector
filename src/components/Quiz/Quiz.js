@@ -5,9 +5,9 @@ import QuizDetail from '../quizDetails/QuizDetail';
 const Quiz = () => {
     const lateQuiz = useLoaderData()
     const quick = lateQuiz.data.questions
-    console.log(quick)
     return (
         <div>
+             <h1 className='text-white text-3xl mt-5 font-bold text-center'>Here The Quick-Quiz</h1>
             <div className='md:grid md:grid-cols-2 mt-7'>
           {
                 quick.map(quiz => <QuizDetail 
