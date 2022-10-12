@@ -20,11 +20,10 @@ const QuizDetail = ({quiz}) => {
             return "The correct Ans is =="+ correctAnswer
         }
     return (
-        <div className='quiz  m-4 bg-white'>
-            <div className='p-4 flex justify-between'>
-                <h1>Qus- {question}</h1>
-                <button onClick={notify}><EyeIcon className="h-6 w-6"/></button>
-                <ToastContainer position="top-center"
+        <div className='quiz  m-4 '>
+            <div className='p-4 flex justify-between '>
+                <h1 className='font-bold'>Qus- {question}</h1>
+                        <ToastContainer position="top-center"
                         autoClose={5000}
                         hideProgressBar={false}
                         newestOnTop={false}
@@ -33,6 +32,8 @@ const QuizDetail = ({quiz}) => {
                         pauseOnFocusLoss
                         draggable
                         pauseOnHover></ToastContainer>
+                <button title='Click to see correct ans' onClick={notify} ><EyeIcon className="h-6 w-6"/></button>
+
             </div>
             
             <div className=' p-5 md:grid md:grid-cols-2'>

@@ -21,11 +21,11 @@ const Option = ({option, correctAnswer}) => {
             }
         }
     return (
-        <div className='option m-3 p-5 hover:bg-slate-300'>
+        <div className='option m-3 p-5 '>
             {/* <h1 onClick={notify}>{option}</h1> */}
             <p>
                 <input onClick={notify} type="radio" name='Quiz' id='wowQuiz' className='check' />
-                <label className='pl-2' htmlFor='Quiz'><span>{option}</span></label>
+                <label className='pl-2' htmlFor='Quiz'><span className=''>{option}</span></label>
             </p>
             
                 <ToastContainer position="top-center"

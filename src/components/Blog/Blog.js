@@ -8,25 +8,20 @@ const Blog = () => {
             </div>
         <div >
             <div className='qus'>
-                <h3> How does react work?</h3>
-                <h4>Brought to existence by Jordan Walke and maintained by Facebook, React is the most widely used front-end JavaScript library in the web development domain. Some of the examples of commonly used JavaScript libraries are TensorFlow, Angular, Node etc. React takes a declarative approach to application development that makes it simple to reason about the program while simultaneously aiming for efficiency and flexibility. It is a component-based, open-source front-end library that is exclusively responsible for the application's view layer. It creates basic views for each state in the project, and when the data changes, React updates and renders the appropriate component quickly. The declarative approach simplifies debugging and makes the code more predictable. 
-
-Let’s have a look at an Instagram page built entirely with React to better understand how it works.  </h4>
+                <h3 className='text-2xl font-bold'>Q- What is the purpose of React router?</h3>
+                <h4>React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+Let us create a simple application to React to understand how the React Router works. The application will contain three components: home component, about a component, and contact component. We will use React Router to navigate between these components. </h4>
             </div>
             <div className='qus'>
-                <h3>= What is the difference between props and state?</h3>
-                <h4>  :=The state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. A state must be kept as simple as possible. It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly. <br />Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component.
+                <h3 className='text-2xl font-bold'>Q- How does context API works ? </h3>
+                <h4>  The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease. <br />
+                React.createContext() is all you need. It returns a consumer and a provider. Provider is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state.
                 </h4>
             </div>
             <div className='qus'>
-                <h3>:=
-What are the use of useEFfect execpt load data form API ?</h3>
-                <h4>:= <br /> #Running once on mount: fetch API data <br />
-          #Running on state change: validating input field <br />
-          #Running on state change: live filtering <br />
-          #Running on state change: trigger animation on new array value <br />
-          #Running on props change: update paragraph list on fetched API data update <br />
-          #Running on props change: updating fetched API data to get BTC updated price </h4>
+                <h3 className='text-2xl font-bold'>Q- What is useRef?</h3>
+                <h4>The useRef hook is the new addition in React 16.8. Before proceeding to this article there is a prerequisite to know about the ref in react.
+                The useRef is a hook that allows to directly create a reference to the DOM element in the functional component. The useRef returns a mutable ref object. This object has a property called .current. The value is persisted in the refContainer.current property. These values are accessed from the current property of the returned object. The .current property could be initialised to the passed argument initialValue e.g. useRef(initialValue). The object can persist a value for a full lifetime of the component. </h4>
             </div>
     </div>
           

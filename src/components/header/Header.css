@@ -1,6 +1,7 @@
 
 .b-color{
-    background-color:rgb(187, 155, 113);
+    margin-top:2%;
+    background-image: linear-gradient(#E1A2B8, #9F2BC1);
 }
 .link:hover{
     color:brown;

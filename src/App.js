@@ -4,21 +4,20 @@ import './App.css';
 import Main from './layout/Main';
 import {Link} from 'react-router-dom'
 import Quiz from './components/Quiz/Quiz';
-import Home from './components/home/Home';
 import Blog from './components/Blog/Blog';
 import Statistic from './components/statistic/Statistic';
+import Homes from './components/Homes/Homes';
+
+
 
 
 
 function App() {
   const router = createBrowserRouter([
-    {path:'/', element:<Main></Main>, children:[
-      {path:'/', element:<Home></Home>},
-      {
-        path:'/home',
-        loader : () => fetch('https://openapi.programming-hero.com/api/quiz'),
-        element:<Home></Home>
-    },
+    {path:'/', element:<Main></Main>, children: [
+      {path:'/',element:<Homes></Homes>},
+      {path:'/home', loader:()=>fetch('https://openapi.programming-hero.com/api/quiz'),
+       element:<Homes></Homes>},
       {path:'/statistic',element:<Statistic></Statistic>},
       {path:'/blog',element:<Blog></Blog>},
       {
@@ -26,14 +25,13 @@ function App() {
         loader: ({params}) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`),
         element:<Quiz></Quiz>
       },
-      {path:'',}
       
     ]},
     {path:'/about' , element: <h1 className='md:text-5xl text-center mt-9'>The page is not found 404 <Link className='border-b' to='/home'>check this</Link></h1>}
   ])
   return (
     <div className="">
-        <RouterProvider router={router}></RouterProvider>
+        <RouterProvider  router={router}></RouterProvider>
     </div>
   );
 }

@@ -1,10 +1,15 @@
 .option{
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
-    background-color:white;
-    box-shadow: 10px 11px 10px gray;
+    background-color:rgb(178, 55, 200);
+    box-shadow: 10px 11px 10px black;
+}
+.option:hover{
+    background-color: rgb(114, 8, 132);
+    color: white;
 }
 .quiz{
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
+    background-image: linear-gradient(#E1A2B8, #9F2BC1);
 }
